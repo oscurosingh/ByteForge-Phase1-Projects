@@ -8,7 +8,7 @@ This repository contains all the individual mini-projects completed by members o
 |----------------|-----------------------------|-------------------------------|
 | Shubham        | PDF Automation, Smart Data Reporter | `Shubham_PDF_Automation/`, `Shubham_SmartDataReporter/` |
 | Ashutosh       | Chatbot                     | `Ashutosh_Chatbot/`           |
-| Ashish         | Chatbot, Smart Data Reporter| `Ashish_Chatbot/`, `Ashish_SmartDataReporter/` |
+| Ashish         | Chatbot, Smart Data Reporter| `Ashish_Chatbot/` |
 | Aditya Gond    | File Organizer              | `AdityaGond_FileOrganizer/`   |
 | Akshit         | Weather Forecast CLI Tool   | `Akshit_WeatherCLI/`          |
 | Aditya         | File Organizer              | `Aditya_FileOrganizer/`       |
