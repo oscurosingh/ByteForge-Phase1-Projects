@@ -1,16 +1,6 @@
-# PDF Automation Tool Requirements
+PyPDF2==3.0.1
+python-dotenv==1.0.0
+requests==2.31.0
+pandas==2.1.4
+openpyxl==3.1.2
 
-# Core Streamlit GUI
-streamlit>=1.30.0           # Web-based user interface
-
-# PDF processing libraries
-PyPDF2>=3.0.1                # Core PDF manipulation (merge, split, encrypt, decrypt)
-reportlab>=3.6.12            # Used for adding watermark text
-
-# Optional: for image or additional processing features in future
-# Pillow>=9.2.0              # Image processing (uncomment if you add image-based watermarks)
-
-# Utility dependencies (optional/future expansion)
-# python-docx>=0.8.11        # For Word document to PDF (future idea)
-# flask>=2.2.3               # If API interface is added later
-# requests>=2.28.1           # For any online feature integration
