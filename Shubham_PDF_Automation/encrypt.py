@@ -16,8 +16,8 @@ def encrypt_pdf(uploaded_file, password):
     if uploaded_file is None or password is None:
         raise ValueError("Both uploaded file and password must be provided.")
     temp_path = save_file_to_temp(uploaded_file)  # Save the uploaded file to a temporary location
-    reader = PdfReader(temo_path)  # Read the PDF file using PdfReader
-    writer =PdfWriter()  # Create a PdfWriter object to write the encrypted PDF
+    reader = PdfReader(temp_path)  # Read the PDF file using PdfReader
+    writer = PdfWriter()  # Create a PdfWriter object to write the encrypted PDF
     for page in reader.pages:
         writer.add_page(page)
         
